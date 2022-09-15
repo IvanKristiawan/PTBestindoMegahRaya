@@ -30,7 +30,10 @@ const container = {
 };
 
 const wrapper = {
-  width: "400px",
+  width: {
+    xs: "350px",
+    sm: "400px"
+  },
   marginTop: 5,
   paddingTop: 5,
   paddingBottom: 2,

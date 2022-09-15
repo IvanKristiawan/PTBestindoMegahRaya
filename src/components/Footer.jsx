@@ -78,7 +78,7 @@ const contentWrapper = {
 
 const secondWrapper = {
   paddingLeft: {
-    sm: 28
+    md: 28
   }
 };
 

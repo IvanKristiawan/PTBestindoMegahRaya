@@ -1,6 +1,11 @@
 import React from "react";
-import { MainCarousel, CompanyCard } from "../components/index";
-import { Paper, Box, Typography, Button } from "@mui/material";
+import {
+  MainCarousel,
+  CompanyCard,
+  CategoryProductCard,
+  KeunggulanPerusahaan
+} from "../components/index";
+import { Paper, Box, Typography, Button, Card } from "@mui/material";
 import { Colors } from "../constants/styles";
 
 const LandingPage = () => {
@@ -8,6 +13,8 @@ const LandingPage = () => {
     <>
       <MainCarousel />
       <CompanyCard />
+      <CategoryProductCard />
+      <KeunggulanPerusahaan />
     </>
   );
 };

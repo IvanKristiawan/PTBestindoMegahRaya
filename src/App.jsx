@@ -4,6 +4,7 @@ import { useStateContext } from "./contexts/ContextProvider";
 import "./styles.css";
 import { FocusContact, AppBar, Footer } from "./components/index";
 import { LandingPage } from "./pages/index";
+import { Colors } from "./constants/styles";
 
 export default function App() {
   const { screenSize, setScreenSize, setWideScreenMenu } = useStateContext();
@@ -19,7 +20,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: Colors.grey100 }}>
       <BrowserRouter>
         <FocusContact />
         <AppBar />
