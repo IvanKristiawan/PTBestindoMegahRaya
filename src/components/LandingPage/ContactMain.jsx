@@ -2,13 +2,13 @@ import React from "react";
 import { Paper, Box, Typography, Button } from "@mui/material";
 import { Colors } from "../../constants/styles";
 
-const CompanyCard = () => {
+const ContactMain = () => {
   return (
     <Box sx={container}>
       <Paper sx={wrapper}>
         <Box>
           <Typography variant="h5" style={textStyle}>
-            PT BESTINDO MEGAH RAYA
+            UNTUK PELAYANAN SILAHKAN HUBUNGI KAMI
           </Typography>
           <Typography sx={[textStyle, addMarginTop]}>
             Best Fire Protection Service Company
@@ -22,7 +22,7 @@ const CompanyCard = () => {
   );
 };
 
-export default CompanyCard;
+export default ContactMain;
 
 const container = {
   display: "flex",
@@ -30,20 +30,11 @@ const container = {
 };
 
 const wrapper = {
-  width: {
-    xs: "350px",
-    sm: "1000px"
-  },
+  width: "100%",
   marginTop: 5,
-  paddingTop: 4,
-  paddingBottom: 2,
-  backgroundColor: Colors.red600,
-  transition: "0.6s",
-  "&:hover": {
-    width: {
-      sm: "1200px"
-    }
-  }
+  paddingTop: 5,
+  paddingBottom: 5,
+  backgroundColor: Colors.red700
 };
 
 const textStyle = {

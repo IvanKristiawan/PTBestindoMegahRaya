@@ -3,7 +3,8 @@ import {
   MainCarousel,
   CompanyCard,
   CategoryProductCard,
-  KeunggulanPerusahaan
+  KeunggulanPerusahaan,
+  ContactMain
 } from "../components/index";
 import { Paper, Box, Typography, Button, Card } from "@mui/material";
 import { Colors } from "../constants/styles";
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <CompanyCard />
       <CategoryProductCard />
       <KeunggulanPerusahaan />
+      <ContactMain />
     </>
   );
 };
