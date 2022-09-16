@@ -1,6 +1,7 @@
 import React from "react";
 import { Paper, Box, Typography, Button } from "@mui/material";
 import { Colors } from "../../constants/styles";
+import CustomerService from "../../assets/img/CustomerService.png";
 
 const ContactMain = () => {
   return (
@@ -13,9 +14,12 @@ const ContactMain = () => {
           <Typography sx={[textStyle, addMarginTop]}>
             Best Fire Protection Service Company
           </Typography>
-          <Button variant="contained" sx={addMarginTop}>
-            <span>Kontak Kami</span>
-          </Button>
+          <img src={CustomerService} alt="CustomerService" style={imgStyle} />
+          <Box>
+            <Button variant="contained" sx={addMarginTop}>
+              <span>Kontak Kami</span>
+            </Button>
+          </Box>
         </Box>
       </Paper>
     </Box>
@@ -44,4 +48,8 @@ const textStyle = {
 
 const addMarginTop = {
   marginTop: 1
+};
+
+const imgStyle = {
+  width: "100px"
 };

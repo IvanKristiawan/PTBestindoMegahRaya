@@ -149,7 +149,7 @@ export default CategoryProductCard;
 
 const container = {
   margin: 4,
-  marginTop: 10
+  paddingTop: 4
 };
 
 const mainTitle = {
